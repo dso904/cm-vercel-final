@@ -38,7 +38,7 @@ const Contribute = () => {
       <main id="goalsPage">
         <article className={styles.article}>
           <div className={styles.article__content}>
-          <a href="https://carbonmanager.streamlit.app/" target="_blank" rel="noopener noreferrer">
+          <a href="https://teamhackminors.github.io/carbonfootprintmanager/" target="_blank" rel="noopener noreferrer">
             <h1>AI Carbon Footprint Manager </h1>
             
           </a>
