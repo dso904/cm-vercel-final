@@ -67,9 +67,10 @@ Apart from this, it also has the following features:-<br></br><br></br>
             <hr></hr>
             <br />
             <a href="https://chatbot-apon.onrender.com/" target="_blank" rel="noopener noreferrer">
-            <Image src="/images/ChatUI.jpeg" alt="Forum"width={450} height={450} className={styles.page}/>
+            
             <h1>Chat2Eco-The AI Chatbot</h1>
             </a>
+            <Image src="/images/ChatUI.jpeg" alt="Forum"width={450} height={450} className={styles.page}/>
             <p className={styles.p}>
             The Chat2Eco-180B base model serves as the cornerstone of the ChatUI, embodying a sophisticated architecture rooted in a Mixture of Experts (MoE) framework. It seamlessly integrates slices from esteemed models such as the gemini 7b, llama 70b-chat, and mixtral 8x7b, orchestrated through a meticulously designed merge mechanism employing the "slerp" interpolation method. Drawing inspiration from pioneering techniques like Mixtral, the Chat2Eco-180B model boasts a sparse decoder-only network, where a dynamic router network selects two distinct parameter groups ("experts") per token at each layer. This strategic parameter selection enhances model capacity while optimizing computational resources, epitomizing the model's commitment to both performance and efficiency.<br /><br />
             In contrast, the fine-tuned Chat2Eco-180B-Chat model represents the culmination of advanced training techniques and domain-specific adaptation. Leveraging a fine-grained MoE architecture, Chat2Eco-180B-Chat features 132B total parameters, with 36B active per input, ensuring unparalleled scalability and versatility. Through meticulous fine-tuning using Qlora and Sft trainers on a meticulously curated dataset comprising approximately 12T tokens of text and code data, supplemented by data from the Common Crawl and the Wikipedia API, the Chat2Eco-180B-Chat model surpasses its predecessors in both data quality and model performance. This tailored training approach, coupled with rigorous data preprocessing using industry-standard tools such as Jupyter Notebooks, Apache Spark, and other advanced data analytical techniques, ensures the Chat2Eco-180B-Chat model's robustness and relevance across diverse linguistic contexts and applications. <br /><br /> Features:- <br /><br />
