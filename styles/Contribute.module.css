@@ -165,3 +165,9 @@
 .black{
   color: #aaff00;
 }
+// Comparison image style
+.comparison{
+  margin-right: -140px;
+  float: right;
+  border-radius: 10px;
+}
